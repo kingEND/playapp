@@ -1,0 +1,39 @@
+/*这个是定义全局基础样式*/
+
+html, body {
+  width: 100%;
+}
+
+body {
+  background: url('../img/1.jpg') no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#container {
+  position: absolute;
+  bottom: 20%;
+  left: 0px;
+  width: 100%;
+  overflow: auto;
+}
+
+#scroll {
+  width: 3200px;
+  height: 200px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.article {
+  width: 800px;
+  height: 200px;
+  box-size: border-box;
+  display: block;
+  padding-left: 30px;
+  float: left;
+}
+
+.article img {
+  margin-left: 20px;
+  float: left;
+}
